@@ -1,0 +1,93 @@
+.footer__inputs{
+	@media screen and (max-width: 978px) {
+	    flex-wrap: wrap;
+	}
+
+    display: flex;
+    justify-content: center;
+    margin-bottom: 62px;
+}
+.footer_inputs__inputGroup{
+    display: flex;
+    flex-wrap: wrap;
+   	justify-content: space-between;
+}
+
+.footer_inputs__inputGroup,.footer__inputs__map{
+    flex-basis: 654px;
+
+    @media screen and (max-width: 978px) {
+	    flex-basis: 100%;
+	    flex-wrap: wrap;
+	}
+}
+
+%input_modif{
+	border: 1px solid #cccccc;
+	color: $grey;
+	font-family: Ubuntu;
+	font-size: $font-size-medium;
+	font-weight: 400;
+	height: 50px;
+	padding-left: 12px;
+	outline: none;
+
+}
+.input_name{
+	margin-right: 20px;
+	@media screen and (max-width: 654px) {
+	    	margin-right: 0;
+	}
+	
+}
+.input_name,.input_email{
+	@extend %input_modif;
+    flex-basis: 296px;
+    margin-bottom: 15px;
+	    @media screen and (max-width: 978px) {
+		    flex-basis: 100%;
+		}
+}
+
+.input_subject,textarea{
+	flex-basis: 100%;
+	@extend %input_modif;
+}
+
+textarea{
+	resize: none;
+	height: 200px;
+	padding: 13px;
+	margin-top: 30px;
+	margin-bottom: 70px;
+}
+.sub_button{
+	width: 183px;
+	height: 51px;
+	background-color: $green;
+	border: none;
+	color: #ffffff;
+	font-family: Ubuntu;
+	font-size: 16px;
+	font-weight: 400;
+	cursor: pointer;
+}
+
+.footer__inputs__map{
+		@media screen and (max-width: 978px) {
+	    	padding-top: 20px;
+		}
+	color: $grey;
+	font-family: Ubuntu;
+	font-size: 16px;
+	font-weight: 400;
+	padding-left: 44px;
+}
+.input_adaptiv_wrap{
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+	@media screen and (max-width: 654px) {
+	    	flex-wrap:wrap;
+	}
+}

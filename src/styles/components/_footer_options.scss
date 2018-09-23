@@ -1,0 +1,52 @@
+.greenModif{
+	color: $green;
+}
+
+.footer__options{
+	max-width: 1348px;
+	margin: 0 auto;
+	padding: 44px 0px;
+	display: flex;
+		@media screen and (max-width: 567px) {
+	    flex-wrap: wrap;
+		}
+	justify-content: center;
+	background-color:$blue;
+		figure{
+			@media screen and (max-width: 567px) {
+			    flex-basis: 100%;
+			    margin-bottom: 30px;
+			}
+			cursor: pointer;
+			flex-basis: 390px;
+				.footer__options__imgWrap{
+					text-align: center;
+					margin-bottom: 28px;
+				}
+				figcaption{
+					text-align: center;
+						.caption{
+							color: $black;
+							font-family: Ubuntu;
+							font-size: $font-size-mediumBig;
+							font-weight: 700;
+							text-transform: uppercase;
+							margin-bottom: 18px;
+						}
+						.contactInfo{
+							font-family: Ubuntu;
+							font-size: $font-size-mediumBig;
+							font-weight: 300;
+							letter-spacing: 0.19px;
+						}
+				}	
+
+		}
+}
+
+figure:hover{
+	border-left: 1px solid $black;
+	border-right: 1px solid $black;
+}
+	
+

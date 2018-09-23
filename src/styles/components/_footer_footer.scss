@@ -1,0 +1,29 @@
+.footer__footer{
+	padding-top: 46px;
+	padding-bottom: 46px;
+	padding-left: 286px;
+		@media screen and (max-width: 978px) {
+	    	padding-left: 60px;
+		}
+	padding-right: 30px;
+	background-color: $green;
+	h1{
+		color:#ffffff;
+		font-family: "Ubuntu Light";
+		font-size: 46px;
+		font-weight: 300;
+		letter-spacing: 0.46px;
+		margin-bottom: 16px;
+			b{
+				font-weight: bold;
+				color:#ffffff;
+			}
+	}
+	p{
+		font-size: $font-size-medium;
+		font-weight: 300;
+		color: #ffffff;
+		font-family: "Ubuntu Light";
+	}
+
+}

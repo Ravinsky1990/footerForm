@@ -1,0 +1,37 @@
+.footer__header{
+    margin-bottom: 92px;
+}
+.footer__header__icon{
+    text-align: center;
+    margin-bottom: 38px;
+}
+.footer__header__icon__imgWrap{
+    max-width: 82px;
+    display: inline-block;
+}
+
+.footer__header__contactUs{
+    margin-bottom: 30px;
+    h2{
+        text-align: center;
+        font-family: Ubuntu;
+        font-size: $font-size-small;
+        color:$grey;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 4.2px;
+    }
+}
+.footer__header__sayHello{
+    h1{
+        font-family: Ubuntu Light;
+        font-size: 60px;
+        font-weight: 300;
+        color:$black;
+        text-align: center;
+            span{
+                color: $green;
+                margin-left:22px; 
+            }    
+    }
+}
